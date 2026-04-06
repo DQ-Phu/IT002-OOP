@@ -61,7 +61,7 @@ void PhanSo::RutGon(){
 }
 
 /* Hàm tìm tổng 2 phân số
-Đầu vào tử và mãu của 2 phân số
+Đầu vào tử và mẫu của 2 phân số
 Đầu ra là tổng 2 phân só đã rút gọn */
 PhanSo PhanSo::Tong(PhanSo b){
     PhanSo kq;
@@ -72,7 +72,7 @@ PhanSo PhanSo::Tong(PhanSo b){
 }
 
 /* Hàm tìm hiệu 2 phân số
-Đầu vào tử và mãu của 2 phân số
+Đầu vào tử và mẫu của 2 phân số
 Đầu ra là hiệu 2 phân só đã rút gọn */
 PhanSo PhanSo::Hieu(PhanSo b){
     PhanSo kq;
@@ -83,7 +83,7 @@ PhanSo PhanSo::Hieu(PhanSo b){
 }
 
 /* Hàm tìm tích 2 phân số
-Đầu vào tử và mãu của 2 phân số
+Đầu vào tử và mẫu của 2 phân số
 Đầu ra là tích 2 phân só đã rút gọn */
 PhanSo PhanSo::Tich(PhanSo b){
     PhanSo kq;
@@ -94,7 +94,7 @@ PhanSo PhanSo::Tich(PhanSo b){
 }
 
 /* Hàm tìm thương 2 phân số
-Đầu vào tử và mãu của 2 phân số
+Đầu vào tử và mẫu của 2 phân số
 Đầu ra là thương 2 phân só đã rút gọn */
 PhanSo PhanSo::Thuong(PhanSo b){
     PhanSo kq;
@@ -106,7 +106,7 @@ PhanSo PhanSo::Thuong(PhanSo b){
 
 
 /* Hàm so sánh phân số
-Đầu vào tử và mãu của 2 phân số
+Đầu vào tử và mẫu của 2 phân số
 Đầu ra là A > B, A = B, A < B tùy theo kết quả */
 void PhanSo::SoSanh(PhanSo b){
     int psA = iTu * b.iMau;
