@@ -5,14 +5,20 @@ using namespace std;
 
 void SoPhuc::Nhap() {
     while(true){
-        cout << "Nhap phan thuc: ";
-        cin >> iThuc;
-        cout << "Nhap phan ao: ";
-        cin >> iAo;
+        cout << "Nhap phan thuc: "; cin >> iThuc;
 
         // Kiểm tra có kí tự trong input không
-        if (cin.fail()) {
-            cout << "Loi! Vui long chi nhap so thuc!\n";
+        if (cin.fail() || cin.peek() != '\n') {
+            cout << "Loi! Chi nhap so thuc!\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            continue;
+        }
+
+        cout << "Nhap phan ao: "; cin >> iAo;
+
+        if (cin.fail() || cin.peek() != '\n') {
+            cout << "Loi! Chi nhap so thuc!\n";
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             continue;
