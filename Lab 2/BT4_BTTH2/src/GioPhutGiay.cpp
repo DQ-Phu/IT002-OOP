@@ -16,7 +16,7 @@ void GioPhutGiay::Nhap() {
             continue;
         }
         // Kiểm tra số có phải là số nguyên hay không
-        else if (cin.peek() != '\n') { //cin.peek() sẽ dừng khi gặp dấu chấm trong số thực => khác newline
+        else if (cin.peek() != '\n') {
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Loi! Chi duoc nhap so nguyen!\n";
             continue;
