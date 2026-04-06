@@ -19,15 +19,15 @@ void PhanSo::Nhap(){
 
         // Kiểm tra có kí tự trong input không
         if (cin.fail()) {
-            cout << "Loi! Vui long chi nhap so!\n";
+            cout << "Loi! Vui long chi nhap so nguyen!\n";
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             continue;
         }
         // Kiểm tra số có phải là số nguyên hay không
-        else if (cin.peek() != '\n') { //cin.peek() sẽ dừng khi gặp dấu chấm trong số thực => khác newline
+        else if (cin.peek() != '\n') { 
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            cout << "Loi! Chi duoc nhap so nguyen!\n";
+            cout << "Loi! Vui long chi nhap so nguyen!\n";
             continue;
         }
 
