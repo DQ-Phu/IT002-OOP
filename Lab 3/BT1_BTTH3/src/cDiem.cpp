@@ -2,6 +2,9 @@
 #include "cTamGiac.h"
 #include <iostream>
 #include <cmath>
+#include <limits>
+
+#define PI 3.14159265358979323846
 using namespace std;
 
 // Constructor
@@ -89,7 +92,7 @@ cDiem cDiem::ThuNho(double k) {
 Đàu vào: Góc quay theo độ, tọa độ điểm
 Đầu ra: Tọa độ điểm sau khi quay */
 cDiem cDiem::Quay(double goc) {
-    double rad = goc * M_PI / 180; // chuyển đơn vị độ sang radian
+    double rad = goc * PI / 180; // chuyển đơn vị độ sang radian
     double nx = x * cos(rad) - y * sin(rad);
     double ny = x * sin(rad) + y * cos(rad);
     return cDiem(nx, ny);
