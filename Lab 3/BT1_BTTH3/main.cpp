@@ -104,6 +104,11 @@ int main() {
             cout << "Loi! Vui long nhap lai!\n";
             continue;
         }
+        // Kiểm tra tỉ số thu nhỏ có bằng 0
+        if (k == 0) {
+            cout << "Ti so thu nho phai khac 0!";
+            continue;
+        }
         //Nếu thỏa mãn thì break
         break;
     }
