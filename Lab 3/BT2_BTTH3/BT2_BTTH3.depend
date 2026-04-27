@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1777286244 source:e:\test block\it002 - lab 3\bt2_btth3\main.cpp
+	"cDaGiac.h"
+	<iostream>
+	<limits>
+
+1777286358 e:\test block\it002 - lab 3\bt2_btth3\include\cdagiac.h
+	"cDiem.h"
+
+1777285512 e:\test block\it002 - lab 3\bt2_btth3\include\cdiem.h
+
+1777293107 source:e:\test block\it002 - lab 3\bt2_btth3\src\cdagiac.cpp
+	"cDaGiac.h"
+	"cDiem.h"
+	<iostream>
+	<cmath>
+	<limits>
+
+1777273967 source:e:\test block\it002 - lab 3\bt2_btth3\src\cdiem.cpp
+	"cDiem.h"
+	<iostream>
+	<cmath>
+	<limits>
+
