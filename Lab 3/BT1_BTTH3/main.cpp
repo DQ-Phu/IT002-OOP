@@ -8,6 +8,7 @@ int main() {
 
     tg.Nhap();
 
+    // Xuất  tọa độ, loại tam giác, chu vi, diện tích
     cout << "\nThong tin tam giac:\n";
     cout << "Toa do cac diem: ";
     tg.Xuat();
@@ -19,7 +20,7 @@ int main() {
     cout << "Dien tich: " << tg.DienTich() << endl;
     cout << "------------------------\n";
 
-
+    //Nhập vector tịnh tiến và xuất điểm tam giác sau khi tịnh tiến
     double a = 0, b = 0;
     while(true){
         cout << "Nhap vecto tinh tien v = (a, b): \n";
@@ -59,7 +60,7 @@ int main() {
     TT.Xuat();
     cout << "------------------------\n";
 
-
+    //Nhập tỉ số phóng to và xuất tam giác sau khi phóng to
     double k = 0;
     while(true){
         cout << "Nhap ti le phong to: ";
@@ -86,6 +87,7 @@ int main() {
     cout << "------------------------\n";
 
 
+    //Nhập tỉ số thu nhỏ và xuất tam giác sau khi thu nhỏ
     while(true){
         cout << "Nhap ti le thu nho: ";
 
@@ -110,7 +112,7 @@ int main() {
     TN.Xuat();
     cout << "------------------------\n";
 
-
+    //Nhập góc quay theo độ và xuất tam giác sau khi quay
     while(true){
         cout << "Nhap goc quay (don vi la do/degree): ";
 
