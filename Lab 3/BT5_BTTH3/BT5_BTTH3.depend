@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1777358532 source:e:\test block\it002 - lab 3\bt5_btth3\main.cpp
+	<iostream>
+	"cDaThuc.h"
+
+1777358607 source:e:\test block\it002 - lab 3\bt5_btth3\src\cdathuc.cpp
+	"cDaThuc.h"
+	<iostream>
+	<cmath>
+	<limits>
+	<algorithm>
+
+1777343914 e:\test block\it002 - lab 3\bt5_btth3\include\cdathuc.h
+	<iostream>
+

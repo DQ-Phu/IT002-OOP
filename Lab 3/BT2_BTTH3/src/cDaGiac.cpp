@@ -56,10 +56,7 @@ void cDaGiac::Nhap() {
         break;
     }
 
-
-    // Xóa dữ liệu khi nhập sai
     if (dsDiem != nullptr) delete[] dsDiem;
-
     dsDiem = new cDiem[n];
     for (int i = 0; i < n; i++) {
         cout << "Nhap dinh " << i + 1 << ":";
@@ -119,10 +116,9 @@ double cDaGiac::DienTich() {
 cDaGiac cDaGiac::TinhTien(double dx, double dy) {
     cDaGiac ketQua(*this); // Tạo một bản sao từ đa giác hiện tại
     for (int i = 0; i < n; i++) {
-        // Cập nhật trên bản sao, không phải trên đối tượng gốc
         ketQua.dsDiem[i] = ketQua.dsDiem[i].TinhTien(dx, dy);
     }
-    return ketQua; // Trả về bản sao đã di chuyển
+    return ketQua;
 }
 
 /* Hàm thu nhỏ

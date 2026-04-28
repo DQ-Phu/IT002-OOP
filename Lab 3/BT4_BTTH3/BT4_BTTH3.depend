@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1777359010 source:e:\test block\it002 - lab 3\bt4_btth3\main.cpp
+	<iostream>
+	<limits>
+	"cArray.h"
+
+1777342808 e:\test block\it002 - lab 3\bt4_btth3\include\carray.h
+
+1777342808 source:e:\test block\it002 - lab 3\bt4_btth3\src\carray.cpp
+	"cArray.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<limits>
+	<algorithm>
+
