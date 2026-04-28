@@ -14,7 +14,6 @@ int main() {
     cout << "Toa do cac diem: ";
     dg.Xuat();
 
-    cout << "\nDay la: ";
     dg.KiemTraLoai();
 
     cout << "\nChu vi: " << dg.ChuVi() << endl;
@@ -106,7 +105,7 @@ int main() {
             continue;
         }
         if (k == 0) {
-            cout << "Ti so thu nho phai khac 0!";
+            cout << "Ti so thu nho phai khac 0!\n";
             continue;
         }
         //Nếu thỏa mãn thì break

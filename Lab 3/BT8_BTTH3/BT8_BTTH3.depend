@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1777379371 source:e:\test block\it002 - lab 3\bt8_btth3\main.cpp
+1777394818 source:e:\test block\it002 - lab 3\bt8_btth3\main.cpp
 	"cNhanVienSX.h"
 	<iostream>
 	<string>
@@ -7,7 +7,7 @@
 	<algorithm>
 	<limits>
 
-1777379465 source:e:\test block\it002 - lab 3\bt8_btth3\src\cnhanviensx.cpp
+1777386403 source:e:\test block\it002 - lab 3\bt8_btth3\src\cnhanviensx.cpp
 	"cNhanVienSX.h"
 	<iostream>
 	<string>
@@ -15,6 +15,6 @@
 	<cctype>
 	<limits>
 
-1777379371 e:\test block\it002 - lab 3\bt8_btth3\include\cnhanviensx.h
+1777386317 e:\test block\it002 - lab 3\bt8_btth3\include\cnhanviensx.h
 	<string>
 

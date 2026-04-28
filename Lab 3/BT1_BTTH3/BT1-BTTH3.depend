@@ -21,7 +21,7 @@
 1777220153 e:\test block\it002 - lab 3\bt1-btth3\include\ctamgiac.h
 	"cDiem.h"
 
-1777219426 source:e:\test block\it002 - lab 3\bt1_btth3\main.cpp
+1777391806 source:e:\test block\it002 - lab 3\bt1_btth3\main.cpp
 	<iostream>
 	<cTamGiac.h>
 	<limits>
@@ -31,13 +31,14 @@
 
 1777219835 e:\test block\it002 - lab 3\bt1_btth3\include\cdiem.h
 
-1777219792 source:e:\test block\it002 - lab 3\bt1_btth3\src\cdiem.cpp
+1777381646 source:e:\test block\it002 - lab 3\bt1_btth3\src\cdiem.cpp
 	"cDiem.h"
 	"cTamGiac.h"
 	<iostream>
+	<limits>
 	<cmath>
 
-1777218163 source:e:\test block\it002 - lab 3\bt1_btth3\src\ctamgiac.cpp
+1777262789 source:e:\test block\it002 - lab 3\bt1_btth3\src\ctamgiac.cpp
 	"cTamGiac.h"
 	"cDiem.h"
 	<iostream>

@@ -61,7 +61,7 @@ int main() {
             continue;
         }
         if (n <= 0){
-            cout << "So luong nhan vien phai lon hon 0!";
+            cout << "So luong nhan vien phai lon hon 0!\n";
             continue;
         }
         break;

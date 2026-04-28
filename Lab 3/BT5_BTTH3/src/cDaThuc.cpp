@@ -65,6 +65,10 @@ void cDaThuc::Nhap() {
             cout << "Loi! Vui long nhap lai!\n";
             continue;
         }
+        if (n < 0){
+            cout << "Bac phai lon hon 0!\n";
+            continue;
+        }
         break;
     }
     delete[] a;

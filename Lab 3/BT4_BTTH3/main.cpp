@@ -42,8 +42,27 @@ int main() {
 
     // Đếm số lần giá trị x được nhập xuát hiện
     int x;
-    cout << "\nNhap gia tri x can dem: ";
-    cin >> x;
+    while (1){
+        cout << "\nNhap gia tri x can dem(0 - 99): ";
+        cin >> x;
+        if (cin.fail()) {
+            cout << "Loi! Vui long nhap lai!\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            continue;
+        }
+        // Kiểm tra input có phải là số nguyên
+        else if (cin.peek() != '\n') {
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "Loi! Vui long nhap lai!\n";
+            continue;
+        }
+        if (x < 0 || x > 99){
+            cout << "Gia tri x khong hop le!\n";
+            continue;
+        }
+        break;
+    }
     cout << "So lan xuat hien cua " << x << ": " << A.countOccurrence(x) << endl;
 
     cout << "------------------------\n";

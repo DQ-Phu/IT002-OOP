@@ -18,7 +18,7 @@ cNhanVienSX::cNhanVienSX() {
 /* Hàm kiểm tra ngày sinh có hợp lệ
 Đầu vào: ngày tháng năm
 Đầu ra: True nếu hợp lệ, false nếu không hợp lệ*/
-bool KTNgay(int d, int m, int y) {
+bool cNhanVienSX::KTNgay(int d, int m, int y) {
     if (y < 1900 || y > 2026) return false; //Năm sinh hợp lệ trong khoảng (1900, 2026)
     if (m < 1 || m > 12) return false; //Kiểm tra tháng có hợp lệ
 
@@ -134,7 +134,7 @@ void cNhanVienSX::nhap() {
             continue;
         }
         if (soSP <= 0){
-            cout << "So san pham khong duoc la so am!";
+            cout << "So san pham khong duoc la so am!\n";
             continue;
         }
         break;

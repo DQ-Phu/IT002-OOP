@@ -27,6 +27,7 @@ public:
     void xuat();
 
     // Hàm xử lí
+    bool KTNgay(int d, int m, int y);
     long long tinhLuong();
 
     // Hàm get
