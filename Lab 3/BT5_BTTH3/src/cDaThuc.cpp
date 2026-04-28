@@ -45,6 +45,9 @@ cDaThuc& cDaThuc::operator=(const cDaThuc& other) {
     return *this;
 }
 
+/* Hàm nhập
+Đàu vào: Input người dùng
+Đầu ra: Nếu hợp lệ, lưu vào biến. Ngược lại thông báo lỗi và nhập lại*/
 void cDaThuc::Nhap() {
     while (1){
         cout << "Nhap bac cua da thuc (so nguyen): ";

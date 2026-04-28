@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1777379371 source:e:\test block\it002 - lab 3\bt8_btth3\main.cpp
+	"cNhanVienSX.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<limits>
+
+1777379465 source:e:\test block\it002 - lab 3\bt8_btth3\src\cnhanviensx.cpp
+	"cNhanVienSX.h"
+	<iostream>
+	<string>
+	<algorithm>
+	<cctype>
+	<limits>
+
+1777379371 e:\test block\it002 - lab 3\bt8_btth3\include\cnhanviensx.h
+	<string>
+
