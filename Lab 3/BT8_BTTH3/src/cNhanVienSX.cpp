@@ -155,7 +155,7 @@ void cNhanVienSX::nhap() {
             continue;
         }
         if (donGia < 0){
-            cout << "Don gia khong duoc la so am!";
+            cout << "Don gia khong duoc la so am!\n";
             continue;
         }
         break;
