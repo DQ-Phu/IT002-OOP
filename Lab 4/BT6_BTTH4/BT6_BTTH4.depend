@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1778593090 source:e:\test block\it002 - lab 4\bt6_btth4\main.cpp
+	<iostream>
+	<limits>
+	"CVector.h"
+
+1778593090 e:\test block\it002 - lab 4\bt6_btth4\include\cvector.h
+	<iostream>
+
+1778593166 source:e:\test block\it002 - lab 4\bt6_btth4\src\cvector.cpp
+	"CVector.h"
+	<cmath>
+

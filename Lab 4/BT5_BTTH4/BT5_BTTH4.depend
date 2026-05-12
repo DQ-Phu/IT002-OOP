@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1778591342 source:e:\test block\it002 - lab 4\bt5_btth4\main.cpp
+	<iostream>
+	"DaThuc.h"
+
+1778583416 e:\test block\it002 - lab 4\bt5_btth4\include\dathuc.h
+	<iostream>
+	<vector>
+
+1778591433 source:e:\test block\it002 - lab 4\bt5_btth4\src\dathuc.cpp
+	"DaThuc.h"
+	<cmath>
+	<algorithm>
+	<limits>
+

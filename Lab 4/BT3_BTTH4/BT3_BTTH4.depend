@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1778517674 source:e:\test block\it002 - lab 4\bt3_btth4\main.cpp
+	<iostream>
+	<windows.h>
+	<limits>
+	"CTime.h"
+
+1778516642 e:\test block\it002 - lab 4\bt3_btth4\include\ctime.h
+	<iostream>
+	<iomanip>
+
+1778517612 source:e:\test block\it002 - lab 4\bt3_btth4\src\ctime.cpp
+	"CTime.h"
+	<iostream>
+	<limits>
+

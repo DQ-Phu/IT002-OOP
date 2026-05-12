@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1778590512 source:e:\test block\it002 - lab 4\bt4_btth4\src\cdate.cpp
+	"CDate.h"
+	<iostream>
+	<limits>
+
+1778590308 e:\test block\it002 - lab 4\bt4_btth4\include\cdate.h
+	<iostream>
+
+1778590866 source:e:\test block\it002 - lab 4\bt4_btth4\main.cpp
+	<iostream>
+	<iomanip>
+	<limits>
+	"CDate.h"
+

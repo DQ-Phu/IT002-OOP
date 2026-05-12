@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1778595397 source:e:\test block\it002 - lab 4\bt7_btth4\main.cpp
+	<iostream>
+	<limits>
+	"CMatrix.h"
+
+1778595480 e:\test block\it002 - lab 4\bt7_btth4\include\cmatrix.h
+	<iostream>
+
+1778583734 e:\test block\it002 - lab 4\bt7_btth4\include\cvector.h
+	<iostream>
+
+1778595030 source:e:\test block\it002 - lab 4\bt7_btth4\src\cmatrix.cpp
+	"CMatrix.h"
+	<limits>
+
+1778583734 source:e:\test block\it002 - lab 4\bt7_btth4\src\cvector.cpp
+	"CVector.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1778507404 source:e:\test block\it002 - lab 4\bt1_btth4\main.cpp
+	<iostream>
+	"SoPhuc.h"
+
+1778426159 source:e:\test block\it002 - lab 4\bt1_btth4\src\sophuc.cpp
+	"SoPhuc.h"
+	<iostream>
+	<limits>
+
+1778425117 e:\test block\it002 - lab 4\bt1_btth4\include\sophuc.h
+	<iostream>
+

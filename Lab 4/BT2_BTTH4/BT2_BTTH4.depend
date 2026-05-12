@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1778507404 source:e:\test block\it002 - lab 4\bt2_btth4\main.cpp
+	<iostream>
+	"PhanSo.h"
+
+1778506456 e:\test block\it002 - lab 4\bt2_btth4\include\phanso.h
+	<iostream>
+
+1778506582 source:e:\test block\it002 - lab 4\bt2_btth4\src\phanso.cpp
+	"PhanSo.h"
+	<iostream>
+	<limits>
+
