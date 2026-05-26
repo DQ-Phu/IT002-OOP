@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1779812517 source:e:\test block\it002 - lab 5\bt6_btth5\main.cpp
+	"CongTy.h"
+
+1779638003 e:\test block\it002 - lab 5\bt6_btth5\include\congty.h
+	<vector>
+	"KhachHang.h"
+	"LoaiA.h"
+	"LoaiB.h"
+	"LoaiC.h"
+
+1779638003 e:\test block\it002 - lab 5\bt6_btth5\include\khachhang.h
+	<iostream>
+	<string>
+	<fstream>
+	<algorithm>
+
+1779638003 e:\test block\it002 - lab 5\bt6_btth5\include\loaia.h
+	"KhachHang.h"
+
+1779638003 e:\test block\it002 - lab 5\bt6_btth5\include\loaib.h
+	"KhachHang.h"
+
+1779638003 e:\test block\it002 - lab 5\bt6_btth5\include\loaic.h
+	"KhachHang.h"
+
+1779812517 source:e:\test block\it002 - lab 5\bt6_btth5\src\congty.cpp
+	"CongTy.h"
+
+1779812517 source:e:\test block\it002 - lab 5\bt6_btth5\src\khachhang.cpp
+	"KhachHang.h"
+
+1779812517 source:e:\test block\it002 - lab 5\bt6_btth5\src\loaia.cpp
+	"LoaiA.h"
+
+1779812517 source:e:\test block\it002 - lab 5\bt6_btth5\src\loaib.cpp
+	"LoaiB.h"
+
+1779812517 source:e:\test block\it002 - lab 5\bt6_btth5\src\loaic.cpp
+	"LoaiC.h"
+

@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1779637357 source:e:\test block\it002 - lab 5\bt4_btth5\src\kiemchungvien.cpp
+	"KiemChungVien.h"
+
+1779637357 e:\test block\it002 - lab 5\bt4_btth5\include\kiemchungvien.h
+	"NhanVien.h"
+
+1779809090 e:\test block\it002 - lab 5\bt4_btth5\include\nhanvien.h
+	<iostream>
+	<string>
+	<vector>
+	<limits>
+	<cctype>
+
+1779637357 source:e:\test block\it002 - lab 5\bt4_btth5\src\laptrinhvien.cpp
+	"LapTrinhVien.h"
+
+1779637357 e:\test block\it002 - lab 5\bt4_btth5\include\laptrinhvien.h
+	"NhanVien.h"
+
+1779637357 source:e:\test block\it002 - lab 5\bt4_btth5\src\nhanvien.cpp
+	"NhanVien.h"
+
+1779637444 source:e:\test block\it002 - lab 5\bt4_btth5\main.cpp
+	"CongTy.h"
+
+1779637357 e:\test block\it002 - lab 5\bt4_btth5\include\congty.h
+	"LapTrinhVien.h"
+	"KiemChungVien.h"
+	<vector>
+
+1779725836 source:e:\test block\it002 - lab 5\bt4_btth5\src\congty.cpp
+	"CongTy.h"
+

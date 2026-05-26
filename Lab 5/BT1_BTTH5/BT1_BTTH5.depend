@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1779725375 source:e:\test block\it002 - lab 5\bt1_btth5\main.cpp
+	"CongTy.h"
+
+1779634171 e:\test block\it002 - lab 5\bt1_btth5\include\congty.h
+	"NhanVien.h"
+	"NVVP.h"
+	"NVSX.h"
+	<vector>
+
+1779801587 e:\test block\it002 - lab 5\bt1_btth5\include\nhanvien.h
+	<iostream>
+	<string>
+	<limits>
+
+1779799011 e:\test block\it002 - lab 5\bt1_btth5\include\nvvp.h
+	"NhanVien.h"
+
+1779799011 e:\test block\it002 - lab 5\bt1_btth5\include\nvsx.h
+	"NhanVien.h"
+
+1779725450 source:e:\test block\it002 - lab 5\bt1_btth5\src\congty.cpp
+	"CongTy.h"
+
+1779801020 source:e:\test block\it002 - lab 5\bt1_btth5\src\nvsx.cpp
+	"NVSX.h"
+
+1779801026 source:e:\test block\it002 - lab 5\bt1_btth5\src\nvvp.cpp
+	"NVVP.h"
+
+1779725375 source:e:\test block\it002 - lab 5\bt1_btth5\src\nhanvien.cpp
+	"NhanVien.h"
+

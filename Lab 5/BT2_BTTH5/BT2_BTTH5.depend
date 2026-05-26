@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1779635307 source:e:\test block\it002 - lab 5\bt2_btth5\main.cpp
+	"BatDongSan.h"
+
+1779635307 e:\test block\it002 - lab 5\bt2_btth5\include\batdongsan.h
+	"GiaoDichDat.h"
+	"GiaoDichNha.h"
+	"GiaoDichCanHo.h"
+	<vector>
+
+1779635307 e:\test block\it002 - lab 5\bt2_btth5\include\giaodichdat.h
+	"GiaoDich.h"
+
+1779635307 e:\test block\it002 - lab 5\bt2_btth5\include\giaodich.h
+	<iostream>
+	<string>
+	<vector>
+	<limits>
+
+1779635307 e:\test block\it002 - lab 5\bt2_btth5\include\giaodichnha.h
+	"GiaoDich.h"
+
+1779635307 e:\test block\it002 - lab 5\bt2_btth5\include\giaodichcanho.h
+	"GiaoDich.h"
+
+1779635307 source:e:\test block\it002 - lab 5\bt2_btth5\src\batdongsan.cpp
+	"BatDongSan.h"
+
+1779725714 source:e:\test block\it002 - lab 5\bt2_btth5\src\giaodich.cpp
+	"GiaoDich.h"
+
+1779635307 source:e:\test block\it002 - lab 5\bt2_btth5\src\giaodichcanho.cpp
+	"GiaoDichCanHo.h"
+
+1779635307 source:e:\test block\it002 - lab 5\bt2_btth5\src\giaodichdat.cpp
+	"GiaoDichDat.h"
+
+1779635307 source:e:\test block\it002 - lab 5\bt2_btth5\src\giaodichnha.cpp
+	"GiaoDichNha.h"
+

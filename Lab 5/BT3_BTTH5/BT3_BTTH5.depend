@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1779635835 source:e:\test block\it002 - lab 5\bt3_btth5\main.cpp
+	"DaiHoc.h"
+
+1779635835 e:\test block\it002 - lab 5\bt3_btth5\include\daihoc.h
+	"SinhVienCD.h"
+	"SinhVienDH.h"
+	<vector>
+
+1779635835 e:\test block\it002 - lab 5\bt3_btth5\include\sinhviencd.h
+	"SinhVien.h"
+
+1779635835 e:\test block\it002 - lab 5\bt3_btth5\include\sinhvien.h
+	<iostream>
+	<string>
+	<vector>
+	<limits>
+
+1779635834 e:\test block\it002 - lab 5\bt3_btth5\include\sinhviendh.h
+	"SinhVien.h"
+
+1779635834 source:e:\test block\it002 - lab 5\bt3_btth5\src\daihoc.cpp
+	"DaiHoc.h"
+
+1779807477 source:e:\test block\it002 - lab 5\bt3_btth5\src\sinhviencd.cpp
+	"SinhVienCD.h"
+
+1779806977 source:e:\test block\it002 - lab 5\bt3_btth5\src\sinhviendh.cpp
+	"SinhVienDH.h"
+
+1779806977 source:e:\test block\it002 - lab 5\bt3_btth5\src\sinhvien.cpp
+	"SinhVien.h"
+	<cctype>
+
